@@ -1,0 +1,222 @@
+/*Global View*/
+
+html {
+    width: 100%;
+
+}
+.html {
+    /* background-color: rgb(5, 119, 38) !important;*/
+    background: hsla(137, 92%, 24%, 1);
+    background: linear-gradient(-90deg, hsla(137, 92%, 24%, 1) 0%, hsla(167, 45%, 22%, 1) 100%);
+    background: -moz-linear-gradient(-90deg, hsla(137, 92%, 24%, 1) 0%, hsla(167, 45%, 22%, 1) 100%);
+    background: -webkit-linear-gradient(-90deg, hsla(137, 92%, 24%, 1) 0%, hsla(167, 45%, 22%, 1) 100%);
+   /* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#057726", endColorstr="#1F5146", GradientType=1 );*/
+    scroll-behaviour: smooth;
+    background-repeat: nrepeat !important;
+}
+/* navbar*/
+.navbar-custom {
+    width: auto;
+    font-size: 25px;
+    background-color: rgba(56, 52, 53, 0.7);
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    backdrop-filter: blur(4px) !important;
+    position: sticky !important;
+}
+
+/*image*/
+.image {
+    height: 50px;
+    width: 150px;
+}
+/*manu hover*/
+.dropdown-item:hover {
+    background-color: rgba(5, 119, 38, 0.9);
+}
+
+/*carousel*/
+.carousel {
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px !important;
+    width: 1000px !important;
+
+    
+}
+
+/*map*/
+.map {
+   
+    padding-bottom:30px;
+    padding-top: 30px;
+
+}
+
+/*menu*/
+.dropdown-menu {
+    background-color: #383435;
+    margin-top: 7px !important;
+    
+}
+/*menu item*/
+.dropdown-item {
+    color: white !important;
+    /*text-align: left;*/
+}
+/*nav header*/
+.header {
+    display: inline-block;
+    backdrop-filter: blur(2px);
+    background-size: 100%;
+    background-repeat: repeat;
+    font-family: 'Rokkitt', serif;
+    color: rgb(255, 255, 255);
+    display: block !important;
+    min-height: 54px;
+    position: sticky;
+    top: 0;
+    
+}
+/*header link hover*/
+.nav-link:hover {
+    color: #057726 !important;
+}
+
+/*right?*/
+.pull-right {
+    float: right !important;
+}
+#nav, #nav ul {
+    line-height: 2;
+    list-style: none outside none;
+    padding: 0;
+    z-index: 1000;
+    text-align: left;
+}
+
+.card {
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.00) !important;
+    border: none;
+    color: white;
+}
+
+.bg-light {
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.00) !important;
+    border: none;
+}
+.nav-link {
+    /*text-align: right;*/
+}
+
+.email {
+    margin: 60px auto 275px 120px;
+    
+    
+}
+.label {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    width: 250px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.label1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border: none;
+    color: black;
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    idth: 250px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 1000px;
+    padding-left: 5px;
+}
+.label2 {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border: none;
+    color: black;
+    height: 100px;
+    width: 1000px !important;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    idth: 250px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.btn:hover {
+    background-color: rgba(56, 52, 53, 0.3);
+    color: white;
+}
+
+.btn {
+    width: 200px;
+    margin-top: -10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h1 {
+    font-size: 32px;
+    text-align:center;
+    color:white;
+    margin: 70px auto 20px auto;
+}
+.program {
+    margin: 30px auto;
+    
+
+}
+.programtxt {
+    font-weight: bold;
+    text-align:center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 150px;
+    margin-top: 60px;
+}
+.txt {
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    margin-top: 1px;
+}
+
+.aa {
+    color: white;
+    text-decoration: underline;
+    
+    
+}
+.aa:hover {
+   text-decoration: underline;
+   color: rgba(255, 255, 255, 0.66);
+}
+
+.h11 {
+    margin: 340px auto;
+    color: white;
+    text-align: center;
+}
