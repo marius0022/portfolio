@@ -9,4 +9,47 @@
 .navbar-toggler {
     border: none;
     float: right !important;
-}   
+}
+
+
+img {
+    
+    width: 60px;
+    height: auto;
+    margin-right: -35px;
+    margin-left: 7px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.navbar-toggle {
+     
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
+   
+
+@media (max-width: 992px) {
+    .navbar-brand {
+        margin-top: -25px;
+        height: 250px;
+        line-height: 250px;
+        font-size: 4em !important;
+        
+    }
+    .navbar-nav > li > a { 
+        padding-top: 30px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+        font-size: 3.8em !important;
+        margin-bottom: 100px;
+        margin-left: 20px;
+    }
+    .navbar-toggler-icon {
+        font-size: 3em;
+        
+    }
+    
+}
+
+
