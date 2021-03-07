@@ -1,19 +1,22 @@
-﻿html {
+﻿body, html {
     height: 100%;
     background: rgb(185,241,225);
     background: linear-gradient(180deg, rgba(185,241,225,1) 0%, rgba(243,217,255,1) 61%);
     background-repeat: repeat-y;
+    scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 
 .navbar-toggler {
     border: none;
     float: right !important;
+    margin-top: 23px;
+    padding: 9px 10px !important;
 }
 
 
 img {
-    
     width: 60px;
     height: auto;
     margin-right: -35px;
@@ -22,12 +25,10 @@ img {
     margin-bottom: -5px;
 }
 
-.navbar-toggle {
-     
-    margin-top: 23px;
-    padding: 9px 10px !important;
-}
+.navbar-custom {
    
+}
+
 
 @media (max-width: 992px) {
     .navbar-brand {
@@ -52,4 +53,24 @@ img {
     
 }
 
-
+.dw {
+    
+    margin-top: 50px;
+  
+}
+.btn{
+    color:black;
+}
+.btn:hover{
+  background-color: rgba(255, 255, 255, 0.52);
+  color:black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+    a:hover {
+        color: black;
+        text-decoration: underline;
+    }
