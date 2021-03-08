@@ -7,7 +7,9 @@
     overflow: hidden;
 }
 
-
+.navbar-custom {
+    color: #34c1fd;
+}
 .navbar-toggler {
     border: none;
     float: right !important;
@@ -17,7 +19,7 @@
 
 
 img {
-    width: 60px;
+    width: 300px;
     height: auto;
     margin-right: -35px;
     margin-left: 7px;
@@ -26,9 +28,14 @@ img {
 }
 
 .navbar-custom {
-   
+    
 }
 
+@media (min-width: 992px){
+    .navbar-nav {
+         margin-left: -250px;
+    }
+}
 
 @media (max-width: 992px) {
     .navbar-brand {
@@ -38,42 +45,57 @@ img {
         font-size: 4em !important;
         margin-left: 5px;
     }
-    .navbar-nav > li > a { 
+
+    .navbar-nav > li > a {
         padding-top: 30px;
         padding-bottom: 26.5px;
         line-height: 27px;
-        font-size: 3.8em !important;
+        font-size: 3em !important;
         margin-bottom: 100px;
         margin-left: 20px;
     }
+
     .navbar-toggler-icon {
         font-size: 3em;
-        
     }
+
+    .navbar-toggler {
+        margin-top: -7px;
+    }
+
     .dw {
         margin-top: 70px;
         background-color: rgba(0, 0, 0, 0.00);
         font-size: 3.5em;
         text-align: center;
     }
+
     .bt {
         font-size: 0.8em;
         border-radius: 12px;
         background-color: rgba(185,241,225,0.1);
+    }
+
+    img {
+        width: 400px;
+        height: auto;
     }
 }
 
 .dw {
     font-size: 2.5em;
     margin-top: 50px;
+    font-family: 'Roboto Slab', serif;
 }
 .btn{
     color:black;
 }
-.btn:hover{
-  background-color: rgba(255, 255, 255, 0.52);
-  color:black;
-}
+    .btn:hover {
+        background-color: rgba(0, 0, 0, 0.00);
+        color: #34C1FD;
+        border-color: #34C1FD;
+        
+    }
 
 .aa {
     color: black;
@@ -92,4 +114,10 @@ img {
     font-size: 0.8em;
     border-radius: 12px;
     background-color: rgba(185,241,225,0.1);
+}
+
+
+.navbar-nav > li > a {
+    font-family: 'Quicksand', sans-serif;
+    color: #34C1Fd !important;
 }
