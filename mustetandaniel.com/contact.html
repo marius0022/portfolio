@@ -69,24 +69,32 @@
             
         </script>
 
+       
+            <h1 class="formtext">If You Like My E-Book or Website, And You Have Any Questions, Please Send Them <a class="aa" href="#feedback">Here!</a></h1>
+            <div class="mid">
+                <form name="form" action="https://formspree.io/f/mknpdnqd" onsubmit="return validateForm()" method="post" required>
 
-        <h1 class="formtext">If You Like My E-Book or Website, And You Have Any Questions, Please Send Them <a class="aa" href="#feedback">Here!</a></h1>
-        <form name="form" action="https://formspree.io/f/mknpdnqd" onsubmit="return validateForm()" method="post" required>
+                    <label class="label">What's Your Name?<span style="color:red;">*</span></label>
+                    <br class="d-lg-none" />
+                    <input id="name" class="border border-secondary form" type="text" name="name" >
+                    <br class="d-none d-lg-block" />
+                    <br class="d-lg-none" />
 
-            <label class="label">What's Your Name?<span style="color:red;">*</span></label>
-            <input id="name" class="border border-secondary form" type="text" name="name">
-            <br />
+                    <label class="label">What's Your E-Mail?<span style="color:red;">*</span></label>
+                    <br class="d-lg-none" />
+                    <input id="form" class="border border-secondary form" type="email" name="email">
+                    <br />
+                    <br class="d-lg-none" />
+                    <label class="label1">Please Tell Me Your Thoughts!</label>
+                    <br class="d-lg-none" />
 
-            <label class="label">What's Your E-Mail?<span style="color:red;">*</span></label>
-            <input id="form" class="border border-secondary form" type="email" name="email">
-            <br />
-            <label class="label1">Please Tell Me Your Thoughts!</label>
-            <input id="feedback" class="border border-secondary form" type="text" name="User's Feedback">
-            <input class="submit btn btn-outline-secondary" type="submit" value="Send" onclick="return foo();">
-            
-            
-        </form>
-    </div>
+                    <input id="feedback" class="border border-secondary form form2" type="text" name="User's Feedback" >
+                    <input class="submit btn btn-outline-secondary" type="submit" value="Send" onclick="return foo();">
+
+
+                </form>
+            </div>
+       
 
     
 

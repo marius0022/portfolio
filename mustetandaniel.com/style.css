@@ -4,11 +4,17 @@
     background: linear-gradient(180deg, rgba(185,241,225,1) 0%, rgba(243,217,255,1) 61%);
     background-repeat: repeat-y;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .navbar-custom {
     color: #34c1fd;
+    /*background-color: rgba(0, 0, 0, 0.00) !important;*/
+    backdrop-filter: blur(3px);
+    
+}
+body {
+    overflow-x: hidden;
 }
 .navbar-toggler {
     border: none;
@@ -27,14 +33,60 @@ img {
     margin-bottom: -5px;
 }
 
-.navbar-custom {
-    
-}
+
 
 @media (min-width: 992px){
     .navbar-nav {
          margin-left: -250px;
     }
+
+    .label {
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 20px;
+        width: 250px;
+        margin-left: 250px;
+    }
+
+    .label1 {
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 20px;
+        width: 250px;
+        margin-left: 250px;
+    }
+
+
+
+    .form {
+        margin-left: 10px;
+        font-family: 'Roboto', sans-serif;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color: black;
+        height: 40px;
+        font-size: 15px;
+        width: 700px;
+        margin-top: 10px;
+        padding-left: 5px;
+        border-radius: 5px 15px 15px 5px;
+    }
+
+    .submit {
+        color: black;
+        border-radius: 15px;
+        width: 970px;
+        margin-left: 245px;
+        margin-top: 10px;
+        padding-left: 5px;
+        display: flex;
+        justify-content: center !important;
+    }
+
+        .submit:hover {
+            color: black;
+            background-color: rgba(52, 193, 253, 0.2);
+        }
 }
 
 @media (max-width: 992px) {
@@ -64,9 +116,9 @@ img {
     }
 
     .dw {
-        margin-top: 70px;
+        margin-top: 100px !important;
         background-color: rgba(0, 0, 0, 0.00);
-        font-size: 3.5em;
+        font-size: 3.5em !important;
         text-align: center;
     }
 
@@ -83,43 +135,70 @@ img {
     }
 
     .formtext {
-       
-        
-        font-size: 40px !important;
-   
+        text-align: center !important;
+        font-size: 60px !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
     }
 
     .form {
+        
         margin-left: 10px;
         font-family: 'Roboto', sans-serif;
         background-color: rgba(0, 0, 0, 0);
         border: none;
         color: black;
-        height: 60px !important;
+        height: 130px !important;
         font-size: 40px;
-        width: 300px !important;
+        width: 900px !important;
         margin-top: 10px;
         padding-left: 5px;
-        border-radius: 5px 15px 15px 5px;
+        border-radius: 20px !important;
     }
 
     .submit {
-        width: 615px !important;
-        height: 50px !important;
+        margin-top: 100px !important;
+        font-size: 60px;
+        width: 950px !important;
+        height: 120px !important;
         display: flex;
-        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        justify-content: center !important;
+        border-radius: 35px;
+    }
+    .form2 {
+        margin-left: 10px;
+        font-family: 'Roboto', sans-serif;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color: black;
+        height: 300px !important;
+        font-size: 40px;
+        width: 900px !important;
+        margin-top: 10px;
+        padding-left: 5px;
+        border-radius: 20px !important;
     }
     .label {
-        font-size: 30px !important;
-        width: 300px;
-        margin-left: 50px;
+        text-align: center !important;
+        font-size: 60px !important;
+        width: auto !important;
+        /*margin-left: auto !important;*/
     }
     .label1 {
-        font-size: 23px !important;
-        width: 300px;
-        margin-left: 50px;
+        text-align: center !important;
+        font-size: 60px !important;
+        width: auto !important;
+        /*margin-left: auto !important;*/
        
     }
+    .mid {
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 
 }
 
@@ -127,6 +206,7 @@ img {
 
 
 .dw {
+    margin-left: 15px;
     font-size: 2.5em;
     margin-top: 50px;
     font-family: 'Roboto Slab', serif;
@@ -168,54 +248,6 @@ img {
 
 
 
-.label {
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    font-size: 20px;
-    width: 300px;
-    margin-left: 50px;
-    
-}
-.label1 {
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    font-size: 20px;
-    width: 300px;
-    margin-left: 50px;
-    
-}
-
-
-
-.form {
-    margin-left: 10px;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    color: black;
-    height: 40px;
-    font-size: 15px;
-    width: 700px;
-    margin-top: 10px;
-    padding-left: 5px;
-    border-radius: 5px 15px 15px 5px;
-}
-.submit {
-    color: black;
-    border-radius: 15px;
-    width: 1015px;
-    margin-left: 50px;
-    margin-top: 10px;
-    padding-left: 5px;
-    display: flex;
-    justify-content: center;
-}
-
-.submit:hover {
-        
-        color: black;
-        background-color: rgba(52, 193, 253, 0.2);
-}
 
 .formtext {
     font-family: 'Roboto', sans-serif;
@@ -223,6 +255,21 @@ img {
     font-size: 35px;
     margin-bottom: 50px;
     margin-left: 50px;
+    text-align:center;
+}
+
+.form2 {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: black;
+    height: 100px;
+    font-size: 15px;
+    width: 700px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius: 5px 15px 15px 5px;
 }
 
 
