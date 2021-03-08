@@ -47,7 +47,6 @@ img {
     }
 
     .navbar-nav > li > a {
-        /*padding-top: 30px;*/
         padding-bottom: 26.5px;
         line-height: 27px;
         font-size: 3em !important;
@@ -82,7 +81,50 @@ img {
         height: auto;
         
     }
+
+    .formtext {
+       
+        
+        font-size: 40px !important;
+   
+    }
+
+    .form {
+        margin-left: 10px;
+        font-family: 'Roboto', sans-serif;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color: black;
+        height: 60px !important;
+        font-size: 40px;
+        width: 300px !important;
+        margin-top: 10px;
+        padding-left: 5px;
+        border-radius: 5px 15px 15px 5px;
+    }
+
+    .submit {
+        width: 615px !important;
+        height: 50px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .label {
+        font-size: 30px !important;
+        width: 300px;
+        margin-left: 50px;
+    }
+    .label1 {
+        font-size: 23px !important;
+        width: 300px;
+        margin-left: 50px;
+       
+    }
+
 }
+
+
+
 
 .dw {
     font-size: 2.5em;
@@ -110,7 +152,6 @@ img {
 .aa:hover {
     color: rgba(0, 0, 0, 0.57);
     text-decoration: none;
-    /*transition: 0.5s;*/
 }
 .bt {
     font-size: 0.8em;
@@ -124,3 +165,64 @@ img {
     font-family: 'Quicksand', sans-serif;
     color: #34C1Fd !important;
 }
+
+
+
+.label {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 20px;
+    width: 300px;
+    margin-left: 50px;
+    
+}
+.label1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 20px;
+    width: 300px;
+    margin-left: 50px;
+    
+}
+
+
+
+.form {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: black;
+    height: 40px;
+    font-size: 15px;
+    width: 700px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius: 5px 15px 15px 5px;
+}
+.submit {
+    color: black;
+    border-radius: 15px;
+    width: 1015px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit:hover {
+        
+        color: black;
+        background-color: rgba(52, 193, 253, 0.2);
+}
+
+.formtext {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 35px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+
