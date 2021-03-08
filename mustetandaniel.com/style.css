@@ -47,12 +47,13 @@ img {
     }
 
     .navbar-nav > li > a {
-        padding-top: 30px;
+        /*padding-top: 30px;*/
         padding-bottom: 26.5px;
         line-height: 27px;
         font-size: 3em !important;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
         margin-left: 20px;
+        margin-top: 50px;
     }
 
     .navbar-toggler-icon {
@@ -79,6 +80,7 @@ img {
     img {
         width: 400px;
         height: auto;
+        
     }
 }
 
@@ -90,12 +92,12 @@ img {
 .btn{
     color:black;
 }
-    .btn:hover {
+.btn:hover {
         background-color: rgba(0, 0, 0, 0.00);
         color: #34C1FD;
         border-color: #34C1FD;
         
-    }
+}
 
 .aa {
     color: black;
@@ -118,6 +120,7 @@ img {
 
 
 .navbar-nav > li > a {
+    font-size: 1.5em;
     font-family: 'Quicksand', sans-serif;
     color: #34C1Fd !important;
 }
