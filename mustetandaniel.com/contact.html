@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head id="top">
+<head>
     <meta charset="utf-8" />
     <title>Mustețan Daniel</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,7 +13,7 @@
     <link rel="icon" href="letter-m-128.ico">
 </head>
 
-<body>
+<body id="top">
 
     <header class="navbar navbar-expand-lg navbar-light bg-light  navbar-custom">
         <div class="container-fluid">
@@ -44,84 +44,61 @@
 
 
 
-    <script>
-
-        function validateForm() {
-            var x = document.forms.form.name.value;
-            var y = document.forms.form.email.value;
-            if (x == "" || x == null || x == " ") {
-               
-                document.getElementById("error").innerHTML = "Please Tell Me Your Name So It's Easier For Me To Contact You Back!"
-                return false;
-            }
-            else if (y == "" || y == null || y == " ") {
-              
-                document.getElementById("error1").innerHTML = "Please Tell Me Your E-Mail So It's Easier For Me To Contact You Back!"
-                return false;
-            }
-            else {
-                var uname = document.getElementById("name").value;
-               alert("Thank You" + " " + uname.charAt(0).toUpperCase() + uname.slice(1));
-               
-                return true;
-            }
-
-        }
-
-      
-
-
-    </script>
+    <script src="script.js"></script>
 
     <div class="thx" id="thx">
 
-        
+
             <h1 class="formtext">If You Like My E-Book or Website, And You Have Any Questions, Please Send Them <a class="aa" href="#feedback">Here!</a></h1>
-       
-
-        <div class="mid">
-            <form name="form" action="https://formspree.io/f/mknpdnqd" onsubmit="return validateForm()" method="post" required>
-
-                <label class="label">What's Your Name?</label>
-
-                <br class="d-lg-none " />
-
-                <input id="name" class="border border-secondary form" type="text"  name="name">
-                <a href="#name">
-                    <div class="error"> <p id="error"></p></div>
-                </a>
-
-                <br class="d-none d-lg-block" />
-                <br class=" d-xl-block" />
-                <br class="d-lg-none" />
-
-                <label class="label">What's Your E-Mail?</label>
-
-                <br class="d-lg-none" />
-
-                <input id="email" class="border border-secondary form" type="email" name="email">
-                <a href="#email">
-                    <div class="error"> <p id="error1"></p></div>
-                </a>
-
-                <br />
-                <br class="d-lg-none" />
 
 
-                <label class="label1">Please Tell Me Your Thoughts!</label>
-                <br class="d-lg-none" />
+            <div class="mid">
 
-                <input id="feedback" class="border border-secondary form2" type="text" name="User's Feedback">
+                </style>
+
+                <form name="form" action="https://formspree.io/f/mknpdnqd" onsubmit="return validateForm()" method="post" required>
+
+                    <label for="name" class="label">What's Your Name?</label>
+
+                    <br class="d-lg-none " />
+
+                    <input id="name" class="border border-secondary form" type="text" name="name>
+
+                    <a href="#name">
+                        <div class="error"> <p id="error"></p></div>
+                    </a>
+
+                    <br class="d-none d-lg-block" />
+                    <br class=" d-xl-block" />
+                    <br class="d-lg-none" />
+
+                    <label for="email" class="label">What's Your E-Mail?</label>
+
+                    <br class="d-lg-none" />
+
+                    <input id="email" class="border border-secondary form" type="email" name="email">
+                    <a href="#email">
+                        <div class="error"> <p id="error1"></p></div>
+                    </a>
+
+                    <br />
+                    <br class="d-lg-none" />
 
 
-                <input class="submit btn btn-outline-secondary" type="submit" value="Send" onclick="return foo();">
+                    <label class="label1">Please Tell Me Your Thoughts!</label>
+                    <br class="d-lg-none" />
+
+                    <input id="feedback" class="border border-secondary form2" type="text" name="User's Feedback">
 
 
-            </form>
-        </div>
-    </div>
+                    <input class="submit btn btn-outline-secondary" type="submit" value="Send" onclick="return foo();">
+
+
+                </form>
+            </div>
+            </div>
+
     
-    
 
 
 
@@ -129,9 +106,13 @@
 
 
 
-        <script src="srcipt.js"></script>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    </body>
+
+
+    <script src="srcipt.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
 </html>
