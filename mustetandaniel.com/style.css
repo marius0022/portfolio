@@ -21,10 +21,7 @@ body {
         background: rgba(0, 0, 0, 0.00);  
     }
 
-    /*body::-webkit-scrollbar-thumb {
-        border-radius: 0px;  
-        border: 0px; 
-    }*/
+
    
 
 
@@ -192,6 +189,8 @@ body {
     cursor: default;
     margin-top: 80px;
     width: 45%;
+    display: flex;
+    justify-content: center;
 }
 
 .text2 h1 {
@@ -203,7 +202,7 @@ body {
         width: auto;
         top: 0;
         
-        margin-left: 100px;
+        margin-left: auto;
         margin-right: auto;
         margin-bottom: 100px;
     }
@@ -431,6 +430,7 @@ body {
     width: 25%;
     color: #f2eddb;
     padding: 10px;
+    display: table;
     /*height: 300px; */
 }
 
@@ -478,8 +478,9 @@ body {
     color: #f2eddb;
     padding: 10px;
     height: 300px;
-    margin-right: -70px;
-    margin-left: 40px;
+    text-align: center;
+    margin-right: -40px;
+    margin-left: -20px;
     margin-top: 70px;
     font-family: 'Cormorant Unicase', serif;
 }
@@ -502,5 +503,4 @@ body {
 }
 
 
-.egal p {
-}
+
