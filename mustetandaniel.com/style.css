@@ -423,12 +423,12 @@ header .texthd h1 {
 
         .page1 .textp1 h1 {
             text-align: center;
-            padding: 0 0;
+            padding: 0 15px;
             font-size: 3em;
         }
 
         .page1 .textp1 p {
-            padding: 20px 20px;
+            padding: 20px 15px;
             font-size: 1.2em;
         }
 
@@ -439,10 +439,10 @@ header .texthd h1 {
     }
 
         .text2p1 img {
-            width: 100%;
-            padding: 0 3%;
-            height: 350px;
-            width: auto;
+            padding: 0 0 0 5px;
+            height: 380px;
+            width: 400px;
+            overflow-x: hidden;
         }
 }
 
