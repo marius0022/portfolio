@@ -222,9 +222,10 @@ header .texthd h1 {
 
 @media (max-width: 768px) {
 
-    body {
+    html, body {
         height: 100%;
         margin: 0;
+        width: 100%;
         overflow-x: hidden;
     }
     .column {
@@ -281,6 +282,7 @@ header .texthd h1 {
     header.header-scrolled  {
         height: 120px !important;
         position: fixed;
+        width: 100%;
     }
 
         header.header-scrolled .toggler {
@@ -320,7 +322,7 @@ header .texthd h1 {
 
     nav.active ul {
         position: fixed;
-        top: 120px;
+        top: 50px;
         left: 0;
         right: 0;
         width: 100%;
