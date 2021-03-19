@@ -499,11 +499,11 @@ header .texthd h1 {
     }
     .page2 img {
 
-        height: 700px;
+        height: 600px;
         width: auto;
         justify-content: center;
         justify-items: center;
-        padding: 60px 3em;
+        padding: 60px 30px;
     }
 }
 
