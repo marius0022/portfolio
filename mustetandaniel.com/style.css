@@ -10,6 +10,12 @@ body {
     overflow-y: scroll;
 }
 
+.page-wrap {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
 html {
     height: 100%;
 }
@@ -176,8 +182,8 @@ header .texthd h1 {
 
 
 .page1 {
-    height: 350px;
-    padding: 200px 150px;
+    height: 80vh;
+    padding: 30vh 100px 300px 100px;
     width: 100%;
     display: table;
 }
@@ -192,7 +198,7 @@ header .texthd h1 {
 }
 .page1 .textp1 {
     flex-wrap: wrap;
-    height: auto;
+    height: 500px;
     width: 45%;
     flex: 40%;
     border-right: 2px solid #000;
@@ -201,27 +207,48 @@ header .texthd h1 {
 .page1 .textp1 h1{
     text-align: center;
     padding:0 50px;
-    font-size: 3.2em;
+    font-size: 3.7em;
 }
     .page1 .textp1 p {
         padding:20px 50px;
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 .text2p1 {
     flex-wrap: wrap;
     width: 40%;
     height: 400px;
-    flex: 40%;
+    flex: 20%;
 }
     .text2p1 img {
         width: 100%;
-        padding:0 35%;
+        padding:0 10%;
         flex-wrap: wrap;
-        height: 400px;
+        height: 500px;
         width: auto;
     }
 
+.page2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #0f0e0c;
+}
+    .page2 .columns2 {
+        flex: 1;
+        width: 32%;
+        display: flex;
+        padding: 150px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .page2 img {
 
+        height: 680px;
+        width: auto;
+        justify-content: center;
+        justify-items: center;
+        padding: 60px 3em;
+    }
 
 @media (max-width: 600px) {
 
@@ -402,6 +429,7 @@ header .texthd h1 {
         padding: 120px 0;
         width: 100%;
         display: block;
+        margin-bottom: 493px;
     }
 
     .columns:after {
@@ -424,12 +452,13 @@ header .texthd h1 {
         .page1 .textp1 h1 {
             text-align: center;
             padding: 0 15px;
-            font-size: 3em;
+            font-size: 3.2em;
         }
 
         .page1 .textp1 p {
             padding: 20px 15px;
             font-size: 1.2em;
+            
         }
 
     .text2p1 {
@@ -439,11 +468,43 @@ header .texthd h1 {
     }
 
         .text2p1 img {
-            padding: 0 0 0 5px;
-            height: 380px;
-            width: 400px;
+            padding: 0 0;
+            height: 400px;
+            width: auto;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 70px;
+            justify-content: center;
+            justify-items: center;
             overflow-x: hidden;
         }
+
+
+    .page2 {
+        clear: both;
+        width: 100%;
+        height: auto;
+        display: flex;
+        background: #0f0e0c;
+    }
+    .page2 .columns2 {
+        flex: 1;
+        width: 32%;
+        display: flex;
+        padding: 0 0;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .page2 img {
+
+        height: 700px;
+        width: auto;
+        justify-content: center;
+        justify-items: center;
+        padding: 60px 3em;
+    }
 }
 
 
