@@ -26,65 +26,175 @@
 </head>
 <body>
     <div class="page-wrap">
-    <header>
+        <header>
 
-        <img src="laptop.jpg" class="banner" />
-        <div class="texthd">
-            <h1>Work Smart, Not Hard</h1>
-        </div>
-        <a href="index.html" class="logo"><img src="logop.png" /></a>
-        <div class="toggler">
-
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">E-Book</a></li>
-                <li><a href="#">Consultant</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Despre Mine</a></li>
-            </ul>
-        </nav>
-
-
-    </header>
-
-
-
-
-    <div class="page1">
-        <div class="columns">
-            <div class="textp1">
-                <h1>Cine sunt eu?</h1>
-                <p>
-                    Sunt un puști cu un vis, sau de fapt cu mai multe. <br />
-                    Născut undeva peste Prut, într-un oraș cu denumirea      "Chișinău".<br />
-                    Mereu mi-a plăcut să ajut lumea, chiar și cu cele mai mici gesturi.<br />
-                    Am stat mult timp și m-am gândit, cum aș putea să ajut oamenii într-un volum mai mare, și așa am aflat de Afaceri.
-                </p>
+            <img src="laptop.jpg" class="banner" />
+            <div class="texthd">
+                <h1>
+                    Dont work hard,<br />
+                    work smart.
+                </h1>
             </div>
+            <a href="index.html" class="logo"><img src="logop.png" /></a>
+            <div class="toggler">
 
-            <div class="text2p1">
-                <img src="danu.jpg" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">E-Book</a></li>
+                    <li><a href="#">Consultant</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Despre Mine</a></li>
+                </ul>
+            </nav>
+
+
+        </header>
+
+
+
+
+        <div class="page1 ">
+            <div class="columns">
+                <div class="textp1">
+                    <h1>Cine sunt eu?</h1>
+                    <p>
+                        Sunt un puști cu un vis, sau de fapt cu mai multe. <br />
+                        Născut undeva peste Prut, într-un oraș cu denumirea      "Chișinău".<br />
+                        Mereu mi-a plăcut să ajut lumea, chiar și cu cele mai mici gesturi.<br />
+                        Am stat mult timp și m-am gândit, cum aș putea să ajut oamenii într-un volum mai mare, și așa am aflat de Afaceri.
+                    </p>
+                </div>
+
+                <div class="text2p1">
+                    <img src="danu.jpg" />
+                </div>
             </div>
         </div>
-    </div>
-    <br />
+        <br />
 
-    <div class="page2">
-        <div class="columns2">
-            <div><img src="danuinsta11.jpg"/></div>
-            <div><img src="danuinsta33.jpg" /></div>
-            <div><img src="danuinsta22.jpg" /></div>
+        <div class="page2">
+            <h1 >Cele 3 calitați a unui om de succes</h1>
+            <div class="columns2">
+                <div  class="fade1"><h2>Munca</h2><img src="danuinsta11.jpg" /></div>
+                <div  class="fade2"><h2>Perseverenta</h2><img src="danuinsta33.jpg" /></div>
+                <div  class="fade3"><h2>Informarea Corecta</h2><img src="danuinsta22.jpg" /></div>
+            </div>
         </div>
+
+
+
+
     </div>
 
 
 
 
-        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg==" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
 
+        gsap.from(".fade1", {
+            scrollTrigger: {
+                trigger: '.fade1',
+                start: "top bottom"
+            },
+            opacity: 0,
+            duration: 1,
+            stagger: .3,
+        })
+        var tl = gsap.timeline({
+            scrollTrigger: ".fade1",
+        });
+
+        tl.to(".fade1", {
+            y: -50,
+            opacity: 1,
+            duration: 1,
+            stagger: .3,
+        });
+
+        gsap.from(".fade2", {
+            scrollTrigger: {
+                trigger: '.fade2',
+                start: "top bottom"
+            },
+            opacity: 0,
+            duration: 1.4,
+            stagger: .3,
+        })
+        var tl = gsap.timeline({
+            scrollTrigger: ".fade2",
+        });
+
+        tl.to(".fade2", {
+            y: -50,
+            opacity: 1,
+            duration: 1.4,
+            stagger: .3,
+        });
+
+        gsap.from(".fade3", {
+            scrollTrigger: {
+                trigger: '.fade3',
+                start: "top bottom"
+            },
+            opacity: 0,
+            duration: 1.6,
+            stagger: .3,
+        })
+        var tl = gsap.timeline({
+            scrollTrigger: ".fade3",
+        });
+
+        tl.to(".fade3", {
+            y: -50,
+            opacity: 1,
+            duration: 1.6,
+            stagger: .3,
+        });
+
+    </script>
 
 </body>
 </html>
