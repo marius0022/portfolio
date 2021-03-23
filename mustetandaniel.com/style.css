@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+*:focus{
+    outline: none; 
+}
 body {
     height: 100%;
     margin: 0;
@@ -14,6 +17,7 @@ body {
     width: 100%;
     margin: 0 auto;
     position: relative;
+    height: 100%;
 }
 .fade{
     z-index: 0;
@@ -218,8 +222,7 @@ header .texthd h1 {
     font-family: 'Petrona', serif;
 }
     .page1 .textp1 p {
-/*        padding: 20px 50px;
-*/        font-size: 1.5em;
+        font-size: 1.5em;
         font-family: 'Lora', serif;
     }
 .text2p1 {
@@ -246,14 +249,16 @@ header .texthd h1 {
     position: relative;
 }
 
-.page2 .columns2 h2{
-    color: white;
-    position: absolute;
-    bottom: 5%;
-    left: 45px;
-    z-index: 1;
-    font-size: 2.3em;
-}
+    .page2 .columns2 h2 {
+        color: white;
+        position: absolute;
+        bottom: 5%;
+        left: 45px;
+        z-index: 1;
+        font-size: 2.3em;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
     .page2 .columns2 .fade3 h2 {
         color: white;
         position: absolute;
@@ -264,11 +269,16 @@ header .texthd h1 {
     }
 
     .page2 h1 {
-        color: white;
+        color: #fff;
         position: absolute;
         top: 4%;
-        left: 20%;
-        font-size: 3.2em;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 3em;
     }
 
     .page2 .columns2 {
@@ -288,7 +298,100 @@ header .texthd h1 {
         padding: 100px 3em;
     }
 
+
+    .book {
+        width: 90%;
+    }
+    .page3{
+        margin: 0;
+        padding: 0 2%;
+        text-align: center;
+        width: 100%;
+        background: #0f0e0c;
+        height:  120vh;
+        padding-top: 10%;
+    }
+    .column {
+        float: left;
+        width: 25%;
+        padding: 10px; 
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+      }
+      .column a{
+          text-decoration: none;
+          color: white;
+          text-align: center;
+      }
+      .column a:hover, a:focus{
+        text-decoration: underline;
+        color: white;
+        outline: none;
+      }
+      .column .imgp1 {
+        width: 100%;
+    }
+    
+    .column .imgp2 {
+        width: 100%;
+    }
+    .column .imgp3 {
+        width: 100%;
+    }
 @media (max-width: 600px) {
+    .page3{
+        display: grid;
+        width: 100%;
+        background: #0f0e0c;
+        height:  auto;
+        padding-top: 10%;
+
+    }
+    .column {
+        float: left;
+        width: 25%;
+        padding: 10px;
+        height: auto; 
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        position: relative;
+
+      }
+       .cp3 {
+          padding-top: 60%;
+          margin-bottom: -5%;
+      }
+      .column a{
+          text-decoration: underline; 
+          color: rgb(255, 255, 255);
+          font-size: 1.5em;
+          padding: 20px 20px 50px 20px; 
+      }
+      .column .book{
+          width: 60%;
+          position: absolute;
+          transform: translate(-20% -100%);
+          top: 100%;
+          right: 20%;
+      }
+
+.column .imgp1 {
+    width: 90%;
+    padding:5% 0 5% 0;
+}
+
+.column .imgp2 {
+    width: 90%;
+    padding:5% 0 5% 0;
+}
+.column .imgp3 {
+    width: 90%;
+    padding:5% 0 5% 0;
+}
+ .mb{
+    height: auto;
+}
 
     html, body {
         margin: 0;
